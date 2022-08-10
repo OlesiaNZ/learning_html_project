@@ -1,0 +1,4 @@
+git status - show changes from last commit
+git add <file name> - add file to commit (save)(prepare)
+git commit -m"add table code" - create commit with describe changes
+gitk - show the code
