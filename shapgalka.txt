@@ -3,3 +3,6 @@ git add "file_name" - add file to commit (save)(prepare)
 git commit -m"add table code" - create commit with describe changes
 gitk - show the code
 git commit -am""- creae commit straight away
+sublime - text editor
+linter sublime - correct tag's spelling
+git-scm
