@@ -40,3 +40,13 @@ a:hover {
   outline: none;
   font-family: inherit;
 }
+
+.hero-image {
+  background-image: url("content/IMG_0220.jpg");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
