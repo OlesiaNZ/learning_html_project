@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html>
 <head>
   <meta charset="UTF-8">
-  <title>Main Olesia's site</title>
+  <title> Main Olesia's site </title>
   <meta name="description" content="Main page for easy navigation between Olesia'a projects">
   <meta name="keywords" content="frontend, project, Olesia's, learning, education">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
@@ -13,14 +13,53 @@
 </head>
 
 <body>
-	<p style="color: #dd22ccff;">Hello world</p>
-  <p>That's me -<img src="content/welcoming_me.jpg" alt="I'm showing the peace sign out of a door" width="420" height="500"> </p>
-	<p>Press <a href="index.html"> here</a> to refresh the main page</p>
-	<p>First project - <a href ="love_letter_aleksei.html"> Love letter to Aleksei</a></p>
-  <p>Second project - <a href="mom_letter.html"> Love letter to Mom</a> </p>
-  <p>Third project - weight tracker</p>
-  <p>Fourths project - site for smart house</p>
-  <h3>My tasks</h3>
-  <span> Add at Alex button to come back to main page</span>
+	<p> Hello world </p>
+  <p> That's me -<img title="Olesia Dolzhenkova" src="content/welcoming_me.jpg" alt="I'm showing the peace sign out of a door" class="avatar"> </p>
+	<p> Press <a href="index.html"> here</a> to refresh the main page</p>
+	<p> First project - <a href ="love_letter_aleksei.html"> Love letter to Aleksei</a></p>
+  <p> Second project - <a href="mom_letter.html"> Love letter to Mom</a> </p>
+  <p> Third project - weight tracker</p>
+  <p> Fourths project - site for smart house</p>
+
+
+
+      <div class="contact">
+        <h2>Связаться со мной</h2>
+
+        <form action="/">
+          <div class="row">
+            <div class="form-group">
+              <label for="name">Ваше имя:</label>
+              <input type="text" id="name" placeholder="Введите ваше имя...">
+            </div>
+
+            <div class="form-group">
+              <label for="email">Ваш email:</label>
+              <input type="email" id="email" placeholder="Введите email...">
+            </div>
+          </div>
+          
+          <div class="form-group">
+            <label for="text">Вашe сообщение:</label>
+            
+            <textarea id="text" rows="2" cols="15"></textarea>
+          </div>
+
+          <input class="btn" type="submit" value="Связаться!">
+        </form>
+      </div>
+
+
+      <div class="position">
+        <div class="box"></div>
+      </div>
+    </div>
+
+    
+
+    <div style="margin-bottom: 500px;;"></div>
+
+
+
 </body>
 </html>
