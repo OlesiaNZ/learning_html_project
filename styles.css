@@ -41,14 +41,16 @@ a:hover {
   padding: 15px 0 10px;
   outline: none;
   font-family: inherit;
+  opacity: 1;
 }
 
 .hero-image {
   background-image: url("content/IMG_0220.jpg");
-  background-color: #cccccc;
-  height: 500px;
+  background-color: #F3B6D3;
+  height: 550px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  opacity: 0.85;
 }
