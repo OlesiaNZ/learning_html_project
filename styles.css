@@ -1,13 +1,12 @@
 body {
   background-color: lightpink;
 }
-/* comment */
-
+/* It makes href black and with no underline */
 a {
   color: black;
   text-decoration: none;
 }
-
+/* It makes href underline when I put a mouse cursor */
 a:hover {
   text-decoration: underline;
 }
