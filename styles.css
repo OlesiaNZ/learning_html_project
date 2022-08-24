@@ -54,3 +54,21 @@ a:hover {
   position: relative;
   opacity: 0.85;
 }
+
+.animation_text {
+  animation: color_change 3s infinite;
+}
+
+@keyframes color_change {
+  0% {
+    color: blue;
+  }
+
+  50% {
+    color: red;
+  }
+
+  100% {
+    color: blue;
+  }
+}
