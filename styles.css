@@ -35,6 +35,9 @@ a:hover {
   background-color: #ffcce0;
   color: black; 
   border: 3px solid #e0b8e0;
+  padding: 5px;
+  text-align: center;
+  cursor: pointer;
 }
 
 .btn:hover {
