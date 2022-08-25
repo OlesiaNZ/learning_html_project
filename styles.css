@@ -43,6 +43,12 @@ a:hover {
   opacity: 1;
 }
 
+.placeholder {
+  font-size: 28px;
+  color: #000;  
+}
+
+
 .hero-image {
   background-image: url("content/IMG_0220.jpg");
   background-color: #F3B6D3;
