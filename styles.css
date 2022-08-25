@@ -29,6 +29,11 @@ a:hover {
   color: white;
 }
 
+.btn {
+  border-radius: 32%;
+  width: 9%;
+}
+
 .form-group input,
 .form-group textarea {
   width: 100%;
@@ -57,7 +62,7 @@ a:hover {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  opacity: 0.85;
+  opacity: 1;
 }
 
 .animation_text {
