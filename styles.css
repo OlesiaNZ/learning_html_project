@@ -63,10 +63,19 @@ a:hover {
   text-shadow: 0 0 3px white;
 }
 
-.placeholder {
+/*.placeholder {
   font-size: 28px;
-  color: #000;  
+  color: #000; 
+  background-color: white; 
+} */
+
+::placeholder {
+  font-size: 18px;
+  color: white;
+  opacity: 1;
+  background-color: #ff000080;
 }
+
 
 
 .hero-image {
