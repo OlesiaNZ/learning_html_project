@@ -60,15 +60,12 @@ a:hover {
   outline: none;
   font-family: inherit;
   opacity: 1;
+  text-shadow: 0 0 3px white;
 }
 
 .placeholder {
   font-size: 28px;
   color: #000;  
-}
-
-.check {
-  text-shadow: 0 0 1px red;
 }
 
 
