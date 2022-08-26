@@ -67,6 +67,10 @@ a:hover {
   color: #000;  
 }
 
+.check {
+  text-shadow: 0 0 1px red;
+}
+
 
 .hero-image {
   background-image: url("content/IMG_0220.jpg");
@@ -88,6 +92,7 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-shadow: 0 0 2px red;
 }
 
 @keyframes color_change {
