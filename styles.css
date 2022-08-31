@@ -1,3 +1,5 @@
+@import "https://unpkg.com/open-props";
+
 body {
   background-color: lightpink;
 }
@@ -146,6 +148,13 @@ a:hover {
     color: #f21a2c;
   }
 }
+
+
+* {
+  box-sizing: border-box;
+}
+
+
 
 .catbut {
   font-family: var(--font-sans);
