@@ -150,20 +150,14 @@ a:hover {
 }
 
 
-* {
-  box-sizing: border-box;
-}
-
-
-
 .catbut {
   font-family: var(--font-sans);
-  font-weight: var(--font-weight-6);
-  font-size: var(--font-size-5);
+  font-weight: var(--font-weight-4);
+  font-size: var(--font-size-1);
   color: var(--gray-8);
   background: var(--gray-0);
   border: 0;
-  padding: var(--size-4) var(--size-8);
+  padding: var(--size-1) var(--size-2);
   transform: translateY(calc(var(--y, 0) * 1%)) scale(var(--scale));
   transition: transform 0.1s;
   position: relative;
