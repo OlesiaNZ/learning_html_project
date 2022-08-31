@@ -1,6 +1,6 @@
-/*.gallery {
-  --s: 200px; /* control the size 
-  --g: 8px;   /* control the gap 
+.gallery {
+  --s: 200px; /* control the size */
+  --g: 8px;   /* control the gap */
   
   display: grid;
   grid: auto-flow var(--s)/repeat(2,var(--s));
@@ -36,4 +36,4 @@
 .gallery > img:nth-child(4){
   clip-path: circle(var(--_c,55% at 30% 30%));
   place-self: end;
-}*/
+}
