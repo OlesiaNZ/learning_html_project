@@ -37,3 +37,21 @@
   clip-path: circle(var(--_c,55% at 30% 30%));
   place-self: end;
 }
+
+
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+svg {
+  width: 30vw;
+  height: 30vw;
+  animation: rotate linear 10s infinite;
+}
+
+svg text {
+  font-size: 9px;
+  fill: black;
+}
