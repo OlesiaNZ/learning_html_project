@@ -56,7 +56,7 @@ svg text {
   fill: black;
 }
 
-.text::selection {
-  background: #ff8080;
-  color: #ffffff;
+::selection {
+  color: red;
+  background: yellow;
 }
