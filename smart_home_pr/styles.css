@@ -55,3 +55,8 @@ svg text {
   font-size: 23px; /* perfecr font size -23px */
   fill: black;
 }
+
+.text::selection {
+  background: #ff8080;
+  color: #ffffff;
+}

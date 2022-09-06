@@ -14,6 +14,12 @@ a:hover {
   text-decoration: underline;
 }
 
+
+.text::selection {
+  background: #ff8080;
+  color: #ffffff;
+}
+
 .avatar {
   width: 400px;
   border-radius: 32px;
