@@ -15,7 +15,7 @@ a:hover {
 }
 
 
-.text::selection {
+::selection {
   background: #ff8080;
   color: #ffffff;
 }
