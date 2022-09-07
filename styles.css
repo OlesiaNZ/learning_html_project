@@ -1,8 +1,11 @@
 @import "https://unpkg.com/open-props";
 @import "compass/css3";
 
+
+
 body {
   background-color: lightpink;
+   background: var(--bg); 
 }
 /* It makes href black and with no underline */
 a {
@@ -189,6 +192,7 @@ a:hover {
   border: var(--size-2) solid var(--gray-0);
   transform: scale(var(--border-scale, 0));
   transition: transform 0.125s;
+
   
   --angle-one: 105deg;
   --angle-two: 290deg;
@@ -206,56 +210,60 @@ a:hover {
     white var(--start-two) var(--end-two),
     transparent var(--end-two)
   );
+}
 
-  .roundedOne {
+/* .roundedOne */
+.roundedOne {
   width: 28px;
   height: 28px;
   position: relative;
-  margin: 20px auto;
+  /* margin: 20px auto; */
   background: #fcfff4;
-  background: linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
-  border-radius: 50px;
-  box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0,0,0,0.5);
-  label {
-    width: 20px;
-    height: 20px;
-    cursor: pointer;
-    position: absolute;
-    left: 4px;
-    top: 4px;
-    background: linear-gradient(top, #222 0%, #45484d 100%);
-    border-radius: 50px;
-    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5), 0px 1px 0px rgba(255,255,255,1);
-    &:after {
-      content: '';
-      width: 16px;
-      height: 16px;
-      position: absolute;
-      top: 2px;
-      left: 2px;
-      background: $activeColor;
-      background: linear-gradient(top, $activeColor 0%, $darkenColor 100%);
-      opacity: 0;
-      border-radius: 50px;
-      box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0,0,0,0.5);
-    }
-    &:hover::after {
-      opacity: 0.3;
-    }
-  }
-  input[type=checkbox] {
-    visibility: hidden;
-    &:checked + label:after {
-      opacity: 1;
-    }
-  }    
+  background: linear-gradient(to bottom, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+  border-radius: 50px; 
+  box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0, 0, 0, 0.5);
 }
+.roundedOne label {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  position: absolute;
+  left: 4px;
+  top: 4px;
+  background: linear-gradient(to bottom, #222222 0%, #45484d 100%);
+  border-radius: 50px;
+  box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 1px 0px white;
+}
+.roundedOne label:after {
+  content: '';
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  background: #27ae60;
+  background: linear-gradient(to bottom, #27ae60 0%, #145b32 100%);
+  opacity: 0;
+  border-radius: 50px;
+  box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0, 0, 0, 0.5);
+}
+.roundedOne label:hover::after {
+  opacity: 0.3;
+}
+.roundedOne input[type=checkbox] {
+  visibility: hidden;
+}
+.roundedOne input[type=checkbox]:checked + label:after {
+  opacity: 1;
+}
+
+/* end .roundedOne */
 
 /* lamp chaNGING */
 
 * {
   box-sizing: border-box;
-}
+} 
 :root {
   --on: 0;
   --bg: hsl(calc(200 - (var(--on) * 160)), calc((20 + (var(--on) * 50)) * 1%), calc((20 + (var(--on) * 60)) * 1%));
@@ -265,13 +273,14 @@ a:hover {
   --cap: hsl(0, 0%, calc((40 + (var(--on) * 30)) * 1%));
   --filament: hsl(45, calc(var(--on) * 80%), calc((25 + (var(--on) * 75)) * 1%));
 }
-body {
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: var(--bg);
-} 
+/* body {
+   min-height: 100vh;
+   display: flex; 
+   align-items: center; 
+   justify-content: center; 
+   background: var(--bg); 
+}
+*/
 .toggle-scene {
   overflow: visible !important;
   height: 50vmin;
